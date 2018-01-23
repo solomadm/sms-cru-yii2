@@ -1,0 +1,33 @@
+{
+	"name": "blackice/yii2-smscru",
+	"description": "Yii2 smsc.ru Module",
+	"keywords": ["yii2", "extension", "smsc"],
+	"homepage": "https://github.com/lordblackice/yii2-smscru",
+	"type": "yii2-extension",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "SMS Center",
+			"email": "support@smsc.ru",
+			"homepage": "http://smsc.ru/",
+			"role": "Developer"
+		},
+		{
+			"name": "Ivan Chuchman",
+			"email": "ivan.chuchman@gmail.com",
+			"homepage": "https://github.com/lordblackice",
+			"role": "Contributor"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"blackice\\smscru\\": ""
+		}
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"lib-curl": "*",
+		"yiisoft/yii2": "*"
+	}
+}
